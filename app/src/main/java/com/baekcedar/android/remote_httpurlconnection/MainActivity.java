@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                getNaver();
+                getApi();
             }
         });
 
     }
 
-    private void getNaver(){
+    private void getApi(){
 
          new AsyncTask<Void, Void, String>() {
             ProgressDialog progress;

@@ -11,7 +11,7 @@
     tools:context="com.baekcedar.android.remote_httpurlconnection.MainActivity">
 
     <Button
-        android:text="Call Naver"
+        android:text="Call API"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

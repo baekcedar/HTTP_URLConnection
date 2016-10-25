@@ -26,8 +26,8 @@ public class Remote {
             int responseCode = conn.getResponseCode();
 
             // 200
-            if(responseCode == HttpsURLConnection.HTTP_OK ){
-                BufferedReader br = new BufferedReader(new InputStreamReader( conn.getInputStream()));
+            if(responseCode == HttpsURLConnection.HTTP_OK){
+                BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 
                 while( (dataLine = br.readLine()) != null){
                     result.append(dataLine);
